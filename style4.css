@@ -1,0 +1,35 @@
+.mainDiv{
+	font-family: 'Libre Baskerville', serif;
+	font-size:20px;
+	width:700px;
+	margin:0 auto;
+}
+.common{
+	color:#ffffff;
+	padding:10px;
+	margin:10px;
+}
+
+.top{
+	height:200px;
+	width:250px;
+	float:left;
+}
+.tleftDiv{
+	background-color:#ff5678;
+}
+.trightDiv{
+	background-color:#00ace6;
+}
+.centerDiv{
+	width:541px;
+	height:450px;
+	clear:left;
+	background-color:#f89678;
+}
+.bleftDiv{
+	background-color:#ff5678;
+}
+.brightDiv{
+	background-color:#00ace6;
+}
