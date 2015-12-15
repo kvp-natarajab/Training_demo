@@ -1,0 +1,29 @@
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="mainDiv">
+		<div class="common bg1">
+			Hello!.....Welcome KVP Business Soloution
+		</div>
+		<div class="common bg2">
+				Hello!.....Welcome KVP Business Soloution
+		</div>
+		<div class="common bg3">
+				Hello!.....Welcome KVP Business Soloution
+		</div>
+		<div class="common bg4">
+				Hello!.....Welcome KVP Business Soloution
+		</div>
+		<div class="common bg5">
+				Hello!.....Welcome KVP Business Soloution
+		</div>
+		<div class="common bg6">
+				Hello!.....Welcome KVP Business Soloution
+		</div>
+	</div>
+</body>
+
+</html>
