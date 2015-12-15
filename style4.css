@@ -1,35 +1,73 @@
-.mainDiv{
-	font-family: 'Libre Baskerville', serif;
-	font-size:20px;
-	width:700px;
-	margin:0 auto;
+header{
+	text-align: center;
 }
-.common{
-	color:#ffffff;
-	padding:10px;
-	margin:10px;
+nav{
+	height:70px;
+	background-color:#00ace6;
+	padding: 10px;
+
 }
 
-.top{
-	height:200px;
-	width:250px;
+.navi{
+	display:inline;
+	padding:10px;
+	list-style-type: none;
+	background-color: #b30059;
+	width:100px; 
+	border-radius:10px;
+	
+}
+.navi a{
+	
+	color:#ffffff;
+}
+.navi:hover{
+	background-color:#595959;
+	color:#00ff00;
+}
+.sectionDiv{
+	margin:0 auto;
+	width:1400px;
+	height:auto;
+}
+.common{
+	width:600px;
+	height:700px;
 	float:left;
+	font-size: 16px;
+	padding:10px;
 }
-.tleftDiv{
-	background-color:#ff5678;
+.leftDiv{
+	background-color:#b38600;
 }
-.trightDiv{
-	background-color:#00ace6;
-}
-.centerDiv{
-	width:541px;
-	height:450px;
-	clear:left;
+.rightDiv{
 	background-color:#f89678;
 }
-.bleftDiv{
-	background-color:#ff5678;
+footer{
+	clear:both;
+	background-color:#0959aa;
+	padding:10px;
 }
-.brightDiv{
-	background-color:#00ace6;
+.frmUser{
+	padding: 30px;
+
+}
+.frmUser .field label{
+	display: inline-block;
+	width:120px; 
+	margin-left:5px;
+}
+
+.ftxt{
+	width:300px;
+	height:30px;
+}
+
+.bSub{
+	width:100px;
+	height:30px;
+}
+
+.bSub:hover{
+	background-color: #f89678;
 }
