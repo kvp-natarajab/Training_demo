@@ -1,0 +1,12 @@
+<div class="header head1"><a heref="Home.html"><img src="EducareLogoSmall2.png" alt="logo" class="logo"></a></div>
+      <div class="header head2">
+      	
+    	<ul class="nav">
+        <li class="navMenu"><a href="Home.html"  target="_self">Home</a></li>
+        <li class="navMenu"><a href="Gallery.html" class="active" target="">Service</a></li>
+       	<li class="navMenu"><a href="4.html">Feedback</a></li>
+        <li class="navMenu"><a href="5.html">Reviews</a></li>
+        <li class="navMenu"><a href="6.html">About</a></li>
+    	</ul>
+
+      </div>

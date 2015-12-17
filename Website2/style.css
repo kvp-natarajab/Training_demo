@@ -1,0 +1,39 @@
+.container{
+	margin:0 auto;
+	width:1400px;
+}
+
+/*-----Navigation---*/
+.navigation{
+	/*background-color:#999;*/
+	height:80px;
+	padding:20px;
+	top:0;
+	background-color:#0F6D8C;
+	position: fixed;
+}
+
+
+.nav{
+	list-style-type:none;
+
+}
+.navMenu a{
+	float:left;
+	text-decoration:none;
+	margin-left:5px;
+	width:120px;
+	padding:10px;
+	text-align:center;
+	background-color:#000000;
+	color:#ffffff;
+}
+.navMenu a:hover{
+
+}
+/*-----div----*/
+.common{
+	min-height: 750px;
+	margin:10px 10px 0px 0px;
+	border:1px solid black;
+}
