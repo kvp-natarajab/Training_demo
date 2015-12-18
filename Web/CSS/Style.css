@@ -1,5 +1,5 @@
 body{
-	background-image:url(../Image/New-Website-Background.jpg);	
+	background:url(../Image/New-Website-Background.jpg) no-repeat fixed center top/ 100% 100%;	
 }
 .container{
 	text-align:center;
@@ -10,11 +10,12 @@ body{
 header{
 	/*background-color:#999;*/
 	height:100px;
+	margin-top:60px;
 }
 
 .head1,.head2{
 	text-align:center;
-	text-shadow:3px 3px #00;
+
 }
 .head1{
 	float:left;	
@@ -34,9 +35,12 @@ header{
 }
 
 /*----Menu----*/
-hr{
-	clear:both;
-	
+.navigation{
+	/*background-color:#999;*/
+	top:0;
+	width:1000px;
+	background-color:#0F6D8C;
+	position: fixed;
 }
 
 .nav{
@@ -46,7 +50,8 @@ hr{
 .navMenu a{
 	float:left;
 	text-decoration:none;
-	margin-left:5px;
+	margin:0px 5px 5px 0px;
+
 	border-radius:0 10px;
 	width:120px;
 	padding:10px;
@@ -59,10 +64,15 @@ hr{
 	background-color:#F90;
 	color:#000;
 }
+/*----dropdown---*/
+.dropdown-list{
+	display: none;
+}
 /*---Animation---*/
 .Animation{
 	height:50px;
 	padding-top:10px;
+	color:#ff0000;
 }
 /*--------SECTION DIV----------*/
 
@@ -77,7 +87,7 @@ hr{
 	font-size:18px;
 	padding:10px;
 	margin:5px;
-	background-color:#999;
+	background-color:#E1E2E3;
 	font-weight: 400;
 }
 .top{
@@ -185,6 +195,11 @@ div .field{
 .movieList a{
 	text-decoration:none;
 }
+
+.movieList a.visited{
+	color:#00ff00;
+}
+
 .movieList a:visited{
 	color:#F00;
 }

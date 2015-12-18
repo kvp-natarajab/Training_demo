@@ -1,14 +1,15 @@
 .container{
 	margin:0 auto;
-	width:1400px;
+	width:1000px;
 }
 
 /*-----Navigation---*/
 .navigation{
 	/*background-color:#999;*/
-	height:80px;
+	height:40px;
 	padding:20px;
 	top:0;
+	width:950px;
 	background-color:#0F6D8C;
 	position: fixed;
 }
